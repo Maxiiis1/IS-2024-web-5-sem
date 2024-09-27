@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="кроссовки, обувь, спорт, магазин, покупка">
+    <meta name="description" content="Интернет-магазин кроссовок. Широкий выбор моделей по доступным ценам.">
+    <title>Интернет-магазин кроссовок</title>
+    <link rel="stylesheet" href="outlines.css">
+    <link rel="stylesheet" href="outline-prototype-safe.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pictures/logo.png" alt="Логотип интернет-магазина">
+        </div>
+        <nuv>
+            <a href="#">Главная</a>
+            <a href="#">Каталог</a>
+            <a href="#">О нас</a>
+            <a href="#">Личный кабинет</a>
+        </nuv>
+    </header>
+    <section class="banner">
+        <img src="pictures/logo4.png" alt="Картинка под тематику магазина"> 
+    </section>
+    <main>
+        <section>
+            <h1>Кроссовки</h1>
+            <div class="filters">
+                <div class="filter-group">
+                    <h3>Тип:</h3>
+                    <select class="type-filter">
+                        <option value="">Все</option>
+                        <option value="Мужские">Мужские</option>
+                        <option value="Женские">Женские</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <h3>Бренд:</h3>
+                    <select class="brand-filter">
+                        <option value="">Все</option>
+                        <option value="Nike">Nike</option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="Puma">Puma</option>
+                        <option value="Converse">Converse</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <h3>Цена:</h3>
+                    <input type="number" class="min-price-filter" placeholder="От">
+                    <input type="number" class="max-price-filter" placeholder="До">
+                </div>
+                <div class="filter-group">
+                    <h3>Размер:</h3>
+                    <select class="size-filter">
+                        <option value="">Все</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <div class="products">
+            <article class="product">
+                <img src="pictures/sn1.jpg" alt="Фото кроссовок">
+                <h3>Nike Blazer 77</h3>
+                <p>Цена: <strong>10 000 рублей</strong></p>
+                <p>Описание кроссовок.</p>
+                <p>Оценка: 4.5 (100 отзывов)</p>
+            </article>
+            <article class="product">
+                <img src="pictures/sn2.jpg" alt="Фото кроссовок">
+                <h3>Nike Blazer 77 Retro</h3>
+                <p>Цена: <strong>15 000 рублей</strong></p>
+                <p>Крутые кроссовки.</p>
+                <p>Оценка: 4.8 (200 отзывов)</p>
+            </article>
+            <article class="product">
+                <img src="pictures/sn4.jpg" alt="Фото кроссовок">
+                <h3>Convers</h3>
+                <p>Цена: <strong>13 000 рублей</strong></p>
+                <p>Нормас.</p>
+                <p>Оценка: 4.7 (167 отзывов)</p>
+            </article>
+            <article class="product">
+                <img src="pictures/sn3.jpg" alt="Фото кроссовок">
+                <h3>Nike Dunk High</h3>
+                <p>Цена: <strong>15 000 рублей</strong></p>
+                <p>Четкие кросы.</p>
+                <p>Оценка: 4.9 (211 отзывов)</p>
+            </article>
+            <article class="product">
+                <img src="pictures/sn5.jpg" alt="Фото кроссовок">
+                <h3>Adidas Campus</h3>
+                <p>Цена: <strong>11 500 рублей</strong></p>
+                <p>Четкие кросы.</p>
+                <p>Оценка: 4.9 (236 отзывов)</p>
+            </article>
+            <article class="product">
+                <img src="pictures/sn6.jpg" alt="Фото кроссовок">
+                <h3>Nike Dunk</h3>
+                <p>Цена: <strong>12 500 рублей</strong></p>
+                <p>Четкие кросы.</p>
+                <p>Оценка: 4.5 (112 отзывов)</p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="pagination">
+            <button class="prev">Предыдущая страница</button>
+            <button class="page">1</button>
+            <button class="page">2</button>
+            <button class="page">3</button>
+            <button class="page">4</button>
+            <button class="next">Следующая страница</button>
+    </div>
+    <aside>
+        <h2>Наши преимущества:</h2>
+        <ul>
+            <li>Широкий ассортимент</li>
+            <li>Доступные цены</li>
+            <li>Быстрая доставка</li>
+            <li>Гарантия качества</li>
+        </ul>
+        <h3>Реклама актуальных предложений</h3>
+        <p>Скидка 10% на все кроссовки!</p>
+        <p>Акция действует до 01.11.2024!</p>
+    </aside>
+        <p>© 2024 Интернет-магазин кроссовок</p>
+        <p>Телефон поддержки - 8927865784</p>
+        <button class="support">Чат поддержки</button>
+    </footer>
+    <section>
+        <h2>Псевдографика</h2>
+        <pre>
+            ░░░░░░░░░░░░▄▄░░░░░░░░░
+            ░░░░░░░░░░░█░░█░░░░░░░░
+            ░░░░░░░░░░░█░░█░░░░░░░░
+            ░░░░░░░░░░█░░░█░░░░░░░░
+            ░░░░░░░░░█░░░░█░░░░░░░░
+            ███████▄▄█░░░░░██████▄░░
+            ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
+            ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
+            ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
+            ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
+            ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
+            ▓▓▓▓▓▓█████░░░░░░░░░█░░
+            ██████▀░░░░▀▀██████▀░░░░            
+        </pre>
+    </section>
+    <section>
+        <h2>Пример кода</h2>
+        <code>
+          echo "Hello World!"
+        </code>
+    </section>
+    <section>
+        <h2>Цитата успеха</h2>
+        <blockquote>
+            <p>«Успех — это не финишная черта, а путь, который ты проходишь».</p>
+            <footer> — Уинстон Черчилль</footer>
+        </blockquote>
+    </section>
+    <section>
+        <h2>Формула успеха</h2>
+        <p>Формула успеха: <strong>У<sub>с</sub> = Т<sub>р</sub> * З<sub>н</sub> * В<sub>е</sub></strong></p>
+        <p>Где: U<sub>с</sub> - уровень успеха, Т<sub>р</sub> - труд, З<sub>н</sub> - знания, В<sub>е</sub> - вера.</p>
+    </section>
+    <section>
+        <h2>Важные моменты</h2>
+        <p>Наш интернет-магазин предлагает <ins>только качественные кроссовки</ins>, от проверенных производителей. <del>Мы всегда заботимся о наших клиентах</del>.  <em>Мы всегда готовы помочь вам</em> с выбором подходящей модели.</p>
+    </section>
+</body>
+</html>
