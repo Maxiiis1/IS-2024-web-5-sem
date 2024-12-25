@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="styles/outlines.css">
+    <script src="scripts/pageLoad.js" defer></script>
+    <script src="scripts/activePage.js" defer></script>
+    <script src="scripts/about.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="pictures/loggo.jpg" alt="Логотип интернет-магазина" class="header__logo-img">
+        </div>
+        <nav class="header__nav">
+            <a href="main.html" class="header__link">Главная</a>
+            <a href="catalog.html" class="header__link">Каталог</a>
+            <a href="about.html" class="header__link">О нас</a>
+            <a href="profile.html" class="header__link">Личный кабинет</a>
+            <a href="orders.html" class="header__link">Заказы</a>
+            <a href="tasks.html" class="header__link">Задачи</a>
+        </nav>
+        <div class="header__search">
+            <input type="text" class="header__search-input" placeholder="Поиск...">
+            <button type="submit" class="header__search-button">Найти</button>
+        </div>
+    </header>
+    <main class="main">
+        <h2>Отзывы наших клиентов:</h2>
+        <div id="preloader"></div>
+        <ul id="data-container"></ul>
+    </main>
+    <footer class="footer">
+        <aside class="advantages">
+            <h3 class="advantages__promo-title">Реклама актуальных предложений</h3>
+            <p class="advantages__promo-text">Скидка 10% на все кроссовки!</p>
+            <p class="advantages__promo-expire">Акция действует до 01.11.2024!</p>
+        </aside>
+
+        <p class="footer__copy">© 2024 Интернет-магазин кроссовок</p>
+        <p class="footer__support-phone">Телефон поддержки - 8927865784</p>
+        <button class="footer__support-button">Чат поддержки</button>
+    </footer>
+</body>
+</html>
