@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список задач</title>
+  <link rel="stylesheet" href="styles/outlines.css">
+  <script src="scripts/list.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <img src="pictures/loggo.jpg" alt="Логотип интернет-магазина" class="header__logo-img">
+    </div>
+    <nav class="header__nav">
+      <a href="main.html" class="header__link">Главная</a>
+      <a href="catalog.html" class="header__link">Каталог</a>
+      <a href="about.html" class="header__link">О нас</a>
+      <a href="profile.html" class="header__link">Личный кабинет</a>
+      <a href="orders.html" class="header__link">Заказы</a>
+      <a href="tasks.html" class="header__link">Задачи</a>
+    </nav>
+    <div class="header__search">
+      <input type="text" class="header__search-input" placeholder="Поиск...">
+      <button type="submit" class="header__search-button">Найти</button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="task-container">
+      <h1>Список задач</h1>
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Введите новую задачу" required>
+        <button type="submit">Добавить</button>
+      </form>
+      <ul id="taskList"></ul>
+      <button id="saveTasks">Сохранить задачи</button>
+      <button id="loadTasks">Загрузить предыдущие задачи</button>
+    </div>
+  </main>
+</body>
+</html>
